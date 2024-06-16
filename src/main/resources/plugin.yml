@@ -1,0 +1,5 @@
+name: sillyachievements
+version: '${version}'
+main: win.h3lp.sillyachievements.Sillyachievements
+api-version: '1.16'
+description: A plugin for silly custom achievements.
