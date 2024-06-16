@@ -1,21 +1,52 @@
-.gradle
-**/build/
-!src/**/build/
+# Ignore Gradle-specific files
+.gradle/
+build/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Keep Gradle Wrapper files
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Ignore IDEA project files
+.idea/
+*.iml
 
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
+# Ignore other generated files
+out/
+*.class
 
-# Cache of project
-.gradletasknamecache
+# Ignore log files
+*.log
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Windows specific files
+*.exe
+*.dll
+*.bat
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore any binary files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore Maven-specific files (if any)
+target/
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+
+# Ignore configuration files that contain sensitive data
+gradle.properties
