@@ -258,4 +258,4 @@ public class AchievementListener implements Listener {
         player.sendMessage(ChatColor.GOLD + "Achievement Unlocked: " + ChatColor.GREEN + achievement);
         Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + player.getName() + " has unlocked the achievement: " + achievement);
     }
-}}
+}
